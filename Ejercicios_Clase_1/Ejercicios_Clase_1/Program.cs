@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-//EJERCICIOS CON DO WHILE:
+// REPASO 1
+
+// EJERCICIOS CON DO WHILE:
 
 // 1- Para el ingreso a un sistema se necesita solicitar la clave,
 // repetir este ingreso hasta que el usuario ingrese la clave correcta: 667788
@@ -274,3 +276,8 @@ foreach (KeyValuePair<string, double> par in datos)
 }
 Console.WriteLine("Quien mas gasto es " + nombre_del_mayor + ", con un total gastado de " + mayor_valor);
 */
+
+// REPASO 2
+
+string hola = "Thiago";
+Console.WriteLine($"mi nombre es {hola}");
