@@ -279,5 +279,18 @@ Console.WriteLine("Quien mas gasto es " + nombre_del_mayor + ", con un total gas
 
 // REPASO 2
 
-string hola = "Thiago";
-Console.WriteLine($"mi nombre es {hola}");
+/* 1- Se ingresa el código de producto (son 10 productos, codificados del 1 al 10),
+// luego el precio y la cantidad que hay del mismo. La carga finaliza cuando se ingresa un
+// código = 0 ; al terminar indicar el código de producto que mayor cantidad tiene.
+List<int> codigos = new List<int>();
+List<int> precios = new List<int>();
+List<int> cantidades = new List<int>();
+int codigo = int.Parse(Console.ReadLine());
+int precio = int.Parse(Console.ReadLine());
+int cantidad = int.Parse(Console.ReadLine());
+
+while (codigo != 0)
+{
+
+}
+*/
