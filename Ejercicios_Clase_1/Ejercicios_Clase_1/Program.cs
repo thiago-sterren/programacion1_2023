@@ -4,7 +4,7 @@
 
 // EJERCICIOS CON DO WHILE:
 
-// 1- Para el ingreso a un sistema se necesita solicitar la clave,
+/* 1- Para el ingreso a un sistema se necesita solicitar la clave,
 // repetir este ingreso hasta que el usuario ingrese la clave correcta: 667788
 //Ejercicio hecho con while():
 Console.WriteLine("Ingrese su clave:");
@@ -15,8 +15,9 @@ while (clave != "667788")
     clave = Console.ReadLine();
 }
 Console.WriteLine("Perfecto, ha ingresado correctamente");
+*/
 
-// Ejercicio hecho con do{} while(): (sirve para economizar codigo y hacer las cosas mas prolijas)
+/* Ejercicio hecho con do{} while(): (sirve para economizar codigo y hacer las cosas mas prolijas)
 Console.WriteLine("Ingrese su clave:");
 string? clave;
 do
@@ -24,8 +25,9 @@ do
     clave = Console.ReadLine();
 } while (clave != "667788");
 Console.WriteLine("Perfecto, ha ingresado correctamente");
+*/
 
-// 2- Se le solicitará ingresar un número al usuario, se repetirá el pedido hasta que ingrese un positivo
+/* 2- Se le solicitará ingresar un número al usuario, se repetirá el pedido hasta que ingrese un positivo
 Console.WriteLine("Inserte un numero positivo");
 string? num;
 double num_double;
@@ -35,8 +37,9 @@ do
     num_double = double.Parse(num);
 } while (num_double <= 0);
 Console.WriteLine("Correcto, ingreso un positivo");
+*/
 
-// 3- Siguiendo con el ejercicio anterior, al ingresar el positivo se mostrará el promedio de los números negativos ingresados
+/* 3- Siguiendo con el ejercicio anterior, al ingresar el positivo se mostrará el promedio de los números negativos ingresados
 Console.WriteLine("Inserte un numero positivo");
 string? num;
 double num_double;
@@ -55,8 +58,9 @@ do
 Console.WriteLine("Correcto, ingreso un positivo");
 double promedio = suma_negs / cant_negs;
 Console.WriteLine("El promedio de los numeros negativos ingresados es de: " + promedio);
+*/
 
-// 4- Se le solicitará ingresar números al usuario, se repetirá el pedido hasta que ingrese un número mayor a 3 cifras
+/* 4- Se le solicitará ingresar números al usuario, se repetirá el pedido hasta que ingrese un número mayor a 3 cifras
 Console.WriteLine("Ingrese un numero con mas de 3 cifras:");
 string? num;
 double num_double;
@@ -66,8 +70,9 @@ do
     num_double = double.Parse(num);
 } while (num_double < 1000);
 Console.WriteLine("Perfecto, ingresaste un numero de 4 cifras o mas");
+*/
 
-// 5- Siguiendo con el ejercicio anterior, al ingresar uno menor a 3 cifras se mostrará el promedio de los ingresados
+/* 5- Siguiendo con el ejercicio anterior, al ingresar uno menor a 3 cifras se mostrará el promedio de los ingresados
 Console.WriteLine("Ingrese un numero con mas de 3 cifras:");
 string? num;
 double num_double;
@@ -87,10 +92,11 @@ do
     }
 } while (num_double < 1000);
 Console.WriteLine("Perfecto, ingresaste un numero de 4 cifras o mas");
+*/
 
 // EJERCICIOS CON WHILE:
 
-// 1 y 2-
+/* 1 y 2-
 Console.WriteLine("Inserte los valores de sus ventas, cuando esten todos los valores ingresados, ponga 0 o un numero menor: ");
 string valor = Console.ReadLine();
 double valor_double = double.Parse(valor);
@@ -108,8 +114,9 @@ while (valor_double > 0)
 Console.WriteLine("La suma final es de: " + suma);
 double promedio = suma / cantidad_numeros;
 Console.WriteLine("El promedio es de: " + promedio);
+*/
 
-// 3- El usuario ingresará una lista de nombre de persona, cuando se ingresé un nombre vacío, sin datos; el sistema informará cuántos nombres se han ingresado.
+/* 3- El usuario ingresará una lista de nombre de persona, cuando se ingresé un nombre vacío, sin datos; el sistema informará cuántos nombres se han ingresado.
 Console.WriteLine("Ingrese nombres que se guardaran en una lista, cuando haya finalizado, ingrese un dato vacio");
 List<string> nombres = new List<string>();
 string nombre = Console.ReadLine();
@@ -123,8 +130,9 @@ while (nombre != "")
     cantidad_nombres++;
 }
 Console.WriteLine("La cantidad de nombres ingresados es: " + cantidad_nombres);
+*/
 
-// 4- Para calcular el total de una factura, el usuario ingresará pares de datos Costo y Total ; cuando se ingrese costo 0 finaliza el ingreso de datos; informar el total adeudado.
+/* 4- Para calcular el total de una factura, el usuario ingresará pares de datos Costo y Total ; cuando se ingrese costo 0 finaliza el ingreso de datos; informar el total adeudado.
 Console.WriteLine("Se le pediran pares de datos costo y total, acordes a los datos de su factura. Cuando haya finalizado, ingrese 0 en una peticion de costo");
 Dictionary<double, double> costos_totales = new Dictionary<double, double>();
 Console.WriteLine("Ingrese el costo:");
@@ -143,8 +151,9 @@ while (costo != 0)
     total_adeudado += total;
 }
 Console.WriteLine("El total adeudado es: " + total_adeudado);
+*/
 
-// 5- (es mas para un for) Para calcular el consumo total de un cliente, el usuario primero ingresará cuántos productos compró; luego el sistema solicitará que ingrese el total y costo de cada uno de esos productos consumidos; al terminar informará el total adeudado por el cliente. 
+/* 5- (es mas para un for) Para calcular el consumo total de un cliente, el usuario primero ingresará cuántos productos compró; luego el sistema solicitará que ingrese el total y costo de cada uno de esos productos consumidos; al terminar informará el total adeudado por el cliente. 
 Console.WriteLine("Cuantos productos compró?");
 string? cant_prod = Console.ReadLine();
 int cant_prod_int = int.Parse(cant_prod);
@@ -160,10 +169,11 @@ for (int i = 1; i <= cant_prod_int; i++)
     suma += total_prod_double;
 }
 Console.WriteLine("El total adeudado es de " + suma + ", mientras que la cantidad de productos comprados es de " + cant_prod_int);
+*/
 
 // EJERCICIOS CON FOR:
 
-// 1- El usuario necesita ingresar 5 valores enteros, el sistema deberá informar la suma de los 5
+/* 1- El usuario necesita ingresar 5 valores enteros, el sistema deberá informar la suma de los 5
 Console.WriteLine("A continuacion se le pediran 5 numeros enteros, para ser sumados posteriormente");
 int suma = 0;
 string? num;
@@ -176,8 +186,9 @@ for (int i = 1; i <= 5; i++)
     suma += num_int;
 }
 Console.WriteLine("La suma total de los 5 numeros es: " + suma);
+*/
 
-// 2- Se necesita calcular el promedio de 8 números ingresados por el usuario
+/* 2- Se necesita calcular el promedio de 8 números ingresados por el usuario
 using System.Diagnostics.CodeAnalysis;
 
 Console.WriteLine("Se le pediran 8 numeros para luego sacar un promedio");
@@ -193,8 +204,9 @@ for (int i = 1; i <= 8; i++)
 }
 int promedio = suma / 8;
 Console.WriteLine("El promedio es de: " + promedio);
+*/
 
-// 3- Para calcular el total de una factura , el usuario ingresará pares de datos Costo y Total ; de unas 5 compras; informar el total adeudado
+/* 3- Para calcular el total de una factura , el usuario ingresará pares de datos Costo y Total ; de unas 5 compras; informar el total adeudado
 double suma = 0;
 string? costo;
 double costo_double;
@@ -211,8 +223,9 @@ for (int i = 1; i <= 5; i++)
     suma += total_double;
 }
 Console.WriteLine("El total adeudado es de: " + suma);
+*/
 
-// 4- De una lista de 8 números indicar cual es el mayor (este lo hice sin crear listas porque no sabia como)
+/* 4- De una lista de 8 números indicar cual es el mayor (este lo hice sin crear listas porque no sabia como)
 int mayor = 0;
 string? num;
 int num_int;
@@ -227,8 +240,9 @@ for (int i = 1; i <= 8; i++)
     }
 }
 Console.WriteLine("El mayor es: " + mayor);
+*/
 
-// (este es el mismo 4 pero hecho con listas)
+/* (este es el mismo 4 pero hecho con listas)
 Console.WriteLine("Se le pediran 8 numeros enteros para conformar una lista y al final se devolvera el mayor");
 List<int> numeros = new List<int>();
 for (int i = 1; i <= 8; i++)
@@ -239,8 +253,9 @@ for (int i = 1; i <= 8; i++)
 }
 int mayor = numeros.Max();
 Console.WriteLine("El mayor es: " + mayor);
+*/
 
-// 5- El usuario ingresa 5 pares de valores con el nombre del cliente y el total gastado, indicar el cliente que gastó más
+/* 5- El usuario ingresa 5 pares de valores con el nombre del cliente y el total gastado, indicar el cliente que gastó más
 Dictionary<string, double> datos = new Dictionary<string, double>();
 for (int i = 1; i <= 5; i++)
 {
@@ -261,10 +276,11 @@ foreach (KeyValuePair<string, double> par in datos)
     }
 }
 Console.WriteLine("Quien mas gasto es " + nombre_del_mayor + ", con un total gastado de " + mayor_valor);
+*/
 
 // REPASO 2
 
-// 1- Se ingresa el código de producto (son 10 productos, codificados del 1 al 10),
+/* 1- Se ingresa el código de producto (son 10 productos, codificados del 1 al 10),
 // luego el precio y la cantidad que hay del mismo. La carga finaliza cuando se ingresa un
 // código = 0 ; al terminar indicar el código de producto que mayor cantidad tiene.
 List<int> codigos = new List<int>();
@@ -278,3 +294,4 @@ while (codigo != 0)
 {
 
 }
+*/
