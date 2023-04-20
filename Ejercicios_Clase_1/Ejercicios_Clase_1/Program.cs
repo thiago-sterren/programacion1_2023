@@ -283,15 +283,114 @@ Console.WriteLine("Quien mas gasto es " + nombre_del_mayor + ", con un total gas
 /* 1- Se ingresa el código de producto (son 10 productos, codificados del 1 al 10),
 // luego el precio y la cantidad que hay del mismo. La carga finaliza cuando se ingresa un
 // código = 0 ; al terminar indicar el código de producto que mayor cantidad tiene.
-List<int> codigos = new List<int>();
-List<int> precios = new List<int>();
-List<int> cantidades = new List<int>();
-int codigo = int.Parse(Console.ReadLine());
-int precio = int.Parse(Console.ReadLine());
-int cantidad = int.Parse(Console.ReadLine());
-
-while (codigo != 0)
+Console.WriteLine("Puede cargar datos de hasta 10 productos distintos, cada uno con un codigo correspondiente entre 1 y 10. Si desea finalizar la carga antes, inserte como codigo un numero fuera de ese rango.");
+int codigo;
+double precio;
+int cantidad;
+int mayor_cantidad = 0;
+int codigo_mayor_cantidad = 0;
+for (int i = 1; i <= 10; i++)
 {
+    Console.WriteLine("Ingrese el codigo del producto:");
+    codigo = int.Parse(Console.ReadLine());
+    Console.WriteLine("Ingrese el precio del producto:");
+    precio = double.Parse(Console.ReadLine());
+    Console.WriteLine("Ingrese la cantidad que hay de este producto:");
+    cantidad = int.Parse(Console.ReadLine());
+    if (codigo <= 0 || codigo > 10) // lo hice para que si el numero que inserte no este entre 1-10, corte el codigo, y no solo con un 0
+    {
+        break;
+    }
+    if (cantidad > mayor_cantidad)
+    {
+        mayor_cantidad = cantidad;
+        codigo_mayor_cantidad = codigo;
+    }
+}
+Console.WriteLine("El codigo del producto con mayor cantidad es: " + codigo_mayor_cantidad);
+*/
 
+/* 2- Retomando el ejercicio 1 ; al finalizar la carga de productos, se ingresan las ventas que
+// hubo por cada código, puede haber más de 1 venta por cada articulo. El ingreso finaliza al
+// colocar un código en 0.  Informar al final los que tienen una cantidad
+// (o sea la cantidad inicial , restando las ventas que tuvo) menor o igual a 0.
+Console.WriteLine("Puede cargar datos de hasta 10 productos distintos, cada uno con un codigo correspondiente entre 1 y 10. Si desea finalizar la carga antes, inserte como codigo un numero fuera de ese rango.");
+int codigo;
+double precio;
+int cantidad;
+int mayor_cantidad = 0;
+int codigo_mayor_cantidad = 0;
+int ventas;
+int cantidad_restante;
+List<int> sobreventas = new List<int>();
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine("Ingrese el codigo del producto:");
+    codigo = int.Parse(Console.ReadLine());
+    Console.WriteLine("Ingrese el precio del producto:");
+    precio = double.Parse(Console.ReadLine());
+    Console.WriteLine("Ingrese la cantidad que hay de este producto:");
+    cantidad = int.Parse(Console.ReadLine());
+    Console.WriteLine("Ingrese la cantidad de ventas de este producto:");
+    ventas = int.Parse(Console.ReadLine());
+    cantidad_restante = cantidad - ventas;
+    if (codigo <= 0 || codigo > 10) // lo hice para que si el numero que inserte no este entre 1-10, corte el codigo, y no solo con un 0
+    {
+        break;
+    }
+    if (cantidad_restante > mayor_cantidad)
+    {
+        mayor_cantidad = cantidad_restante;
+        codigo_mayor_cantidad = codigo;
+    }
+    if (cantidad_restante <= 0)
+    {
+        sobreventas.Add(codigo);
+    }
+}
+Console.WriteLine("El codigo del producto con mayor cantidad es: " + codigo_mayor_cantidad);
+Console.WriteLine("Los codigos de los productos sobrevendidos son:");
+foreach (int i in sobreventas)
+{
+    Console.WriteLine(i);
+}
+*/
+
+/* 3- Retomando el ejercicio anterior, a continuación se colocan los nombres para cada código
+// de producto, (opcional si la carga se realiza del 1 al 10 sin pedir el código o si se ingresa
+// el código y luego la descripción del mismo) ; al finalizar la carga de los 10 códigos indicar
+// el nombre de los productos que tuvieron un total de ventas menor a 10 unidades.
+Console.WriteLine("Puede cargar datos de hasta 10 productos distintos, con codigos entre 1 y 10. Si desea finalizar la carga antes, inserte como codigo del producto un numero fuera de ese rango");
+int codigo;
+string? nombre;
+double precio;
+int cantidad;
+int ventas;
+List<string> ventas_menores_10 = new List<string>();
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine("Ingrese el codigo del producto:");
+    codigo = int.Parse(Console.ReadLine());
+    Console.WriteLine("Ingrese el nombre del producto:");
+    nombre = Console.ReadLine();
+    Console.WriteLine("Ingrese el precio del producto:");
+    precio = double.Parse(Console.ReadLine());
+    Console.WriteLine("Ingrese la cantidad que hay de este producto:");
+    cantidad = int.Parse(Console.ReadLine());
+    Console.WriteLine("Ingrese la cantidad de ventas de este producto:");
+    ventas = int.Parse(Console.ReadLine());
+    if (codigo <= 0 || codigo > 10)
+    {
+        break;
+    }
+    if (ventas < 10)
+    {
+        ventas_menores_10.Add(nombre);
+    }
+}
+Console.WriteLine("Los productos con menos de 10 ventas son:");
+foreach (string i in  ventas_menores_10)
+{
+    Console.WriteLine(i);
 }
 */
