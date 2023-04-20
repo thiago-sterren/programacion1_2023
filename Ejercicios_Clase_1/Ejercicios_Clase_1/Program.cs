@@ -278,6 +278,54 @@ foreach (KeyValuePair<string, double> par in datos)
 Console.WriteLine("Quien mas gasto es " + nombre_del_mayor + ", con un total gastado de " + mayor_valor);
 */
 
+/* Practicado en clase
+int nro_uno = 0;
+int nro_dos = 0;
+int nro_tres = 0;
+string? nombre_uno = "";
+string? nombre_dos = "";
+string? nombre_tres = "";
+
+for (int i = 1; i <= 5; i++)
+{
+    Console.WriteLine("Porfa ingreseme el nombre del pibe ");
+    string nombre = Console.ReadLine();
+
+    Console.WriteLine("Porfa ingreseme cuanto gastó ");
+    int gasto = int.Parse(Console.ReadLine());
+
+    if (gasto > nro_uno)
+    {
+        nro_tres = nro_dos;
+        nro_dos = nro_uno;
+        nro_uno = gasto;
+        nombre_tres = nombre_dos;
+        nombre_dos = nombre_uno;
+        nombre_uno = nombre;
+    }
+    else
+    {
+        if (gasto > nro_dos)
+        {
+            nro_tres = nro_dos;
+            nro_dos = gasto;
+            nombre_tres = nombre_dos;
+            nombre_dos = nombre;
+        }
+        else
+        {
+            if (gasto > nro_tres)
+            {
+                nro_tres = gasto;
+                nombre_tres = nombre;
+            }
+        }
+    }
+}
+Console.WriteLine($"El pibe que más gastó fue {nombre_uno}, el segundo {nombre_dos} y el tercero {nombre_tres}");
+Console.WriteLine($"El total que gastaron fue {nro_uno}, {nro_dos} y {nro_tres}, respectivamente");
+*/
+
 // REPASO 2
 
 /* 1- Se ingresa el código de producto (son 10 productos, codificados del 1 al 10),
