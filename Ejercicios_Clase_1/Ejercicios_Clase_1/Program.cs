@@ -442,3 +442,31 @@ foreach (string i in  ventas_menores_10)
     Console.WriteLine(i);
 }
 */
+
+// REPASO 3
+List<object> clientes = new List<object>();
+string? nombre;
+int codigo;
+string? direccion;
+string? mail;
+do
+{
+    List<object> cliente = new List<object>();
+    Console.WriteLine("Inserte el nombre del cliente:");
+    nombre = Console.ReadLine();
+    Console.WriteLine("Inserte el codigo del cliente:");
+    codigo = int.Parse(Console.ReadLine());
+    Console.WriteLine("Inserte la direccion del cliente:");
+    direccion = Console.ReadLine();
+    Console.WriteLine("Inserte el mail del cliente:");
+    mail = Console.ReadLine();
+    cliente.Add(codigo); cliente.Add(nombre); cliente.Add(direccion); cliente.Add(mail);
+    clientes.Add(cliente);
+} while (nombre != "0");
+foreach (var client in clientes)
+{
+    /*foreach (var c in )
+    {
+
+    }*/
+}
