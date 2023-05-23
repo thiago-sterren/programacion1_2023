@@ -1,0 +1,14 @@
+C:\Users\thiag\Desktop\Thiago\GitHub\Ejercicios de clase con Mati\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\thiag\Desktop\Thiago\GitHub\Ejercicios de clase con Mati\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\thiag\Desktop\Thiago\GitHub\Ejercicios de clase con Mati\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\Ejercicios de clase con Mati\WindowsFormsApp2\bin\Debug\ClassLibrary1.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\Ejercicios de clase con Mati\WindowsFormsApp2\bin\Debug\ClassLibrary1.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\Ejercicios de clase con Mati\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\Ejercicios de clase con Mati\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.SuggestedBindingRedirects.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\Ejercicios de clase con Mati\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\Ejercicios de clase con Mati\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\Ejercicios de clase con Mati\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\Ejercicios de clase con Mati\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\Ejercicios de clase con Mati\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CopyComplete
+C:\Users\thiag\Desktop\Thiago\GitHub\Ejercicios de clase con Mati\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\thiag\Desktop\Thiago\GitHub\Ejercicios de clase con Mati\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
