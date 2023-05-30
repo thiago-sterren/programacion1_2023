@@ -46,6 +46,13 @@
     <Compile Include="Ejercicio4\Empleado.cs" />
     <Compile Include="Ejercicio4\Gerente.cs" />
     <Compile Include="Ejercicio4\Vendedor.cs" />
+    <Compile Include="Ejercicio5\Bateria.cs" />
+    <Compile Include="Ejercicio5\Guitarra.cs" />
+    <Compile Include="Ejercicio5\InstrumentoMusical.cs" />
+    <Compile Include="Ejercicio5\Piano.cs" />
+    <Compile Include="EjercicioOpcional\Producto.cs" />
+    <Compile Include="EjercicioOpcional\ProductoDigital.cs" />
+    <Compile Include="EjercicioOpcional\ProductoFisico.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ejercicio2\Vehiculo.cs" />
   </ItemGroup>
