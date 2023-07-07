@@ -1,0 +1,6 @@
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\BibliotecaPedidos\obj\Debug\BibliotecaPedidos.csproj.AssemblyReference.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\BibliotecaPedidos\obj\Debug\BibliotecaPedidos.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\BibliotecaPedidos\bin\Debug\BibliotecaPedidos.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\BibliotecaPedidos\bin\Debug\BibliotecaPedidos.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\BibliotecaPedidos\obj\Debug\BibliotecaPedidos.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\BibliotecaPedidos\obj\Debug\BibliotecaPedidos.pdb

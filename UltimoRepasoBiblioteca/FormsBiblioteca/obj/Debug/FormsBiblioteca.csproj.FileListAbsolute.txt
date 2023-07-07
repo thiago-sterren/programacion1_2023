@@ -1,0 +1,15 @@
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\FormsBiblioteca\bin\Debug\FormsBiblioteca.exe.config
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\FormsBiblioteca\bin\Debug\FormsBiblioteca.exe
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\FormsBiblioteca\bin\Debug\FormsBiblioteca.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\FormsBiblioteca\bin\Debug\ClasesBiblioteca.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\FormsBiblioteca\bin\Debug\ClasesBiblioteca.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\FormsBiblioteca\obj\Debug\FormsBiblioteca.csproj.AssemblyReference.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\FormsBiblioteca\obj\Debug\FormsBiblioteca.csproj.SuggestedBindingRedirects.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\FormsBiblioteca\obj\Debug\FormsBiblioteca.AltaLibro.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\FormsBiblioteca\obj\Debug\FormsBiblioteca.MenuPrincipal.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\FormsBiblioteca\obj\Debug\FormsBiblioteca.Properties.Resources.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\FormsBiblioteca\obj\Debug\FormsBiblioteca.csproj.GenerateResource.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\FormsBiblioteca\obj\Debug\FormsBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\FormsBiblioteca\obj\Debug\FormsBiblioteca.csproj.CopyComplete
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\FormsBiblioteca\obj\Debug\FormsBiblioteca.exe
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\FormsBiblioteca\obj\Debug\FormsBiblioteca.pdb

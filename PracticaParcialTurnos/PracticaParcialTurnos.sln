@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsTurnos", "FormsTurnos\FormsTurnos.csproj", "{E8E2D3FA-27D1-487B-A2EE-8EA594E83301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaTurnos", "BibliotecaTurnos\BibliotecaTurnos.csproj", "{D37AB12F-13FF-4921-9080-F819184A88C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8E2D3FA-27D1-487B-A2EE-8EA594E83301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8E2D3FA-27D1-487B-A2EE-8EA594E83301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8E2D3FA-27D1-487B-A2EE-8EA594E83301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8E2D3FA-27D1-487B-A2EE-8EA594E83301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D37AB12F-13FF-4921-9080-F819184A88C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37AB12F-13FF-4921-9080-F819184A88C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D37AB12F-13FF-4921-9080-F819184A88C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D37AB12F-13FF-4921-9080-F819184A88C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37104D69-7E95-462D-830F-C2689EAB86EA}
+	EndGlobalSection
+EndGlobal

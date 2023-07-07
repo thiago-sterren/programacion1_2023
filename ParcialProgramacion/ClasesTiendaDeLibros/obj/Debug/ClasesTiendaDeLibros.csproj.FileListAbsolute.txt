@@ -1,0 +1,6 @@
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\ClasesTiendaDeLibros\bin\Debug\ClasesTiendaDeLibros.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\ClasesTiendaDeLibros\bin\Debug\ClasesTiendaDeLibros.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\ClasesTiendaDeLibros\obj\Debug\ClasesTiendaDeLibros.csproj.AssemblyReference.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\ClasesTiendaDeLibros\obj\Debug\ClasesTiendaDeLibros.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\ClasesTiendaDeLibros\obj\Debug\ClasesTiendaDeLibros.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\ClasesTiendaDeLibros\obj\Debug\ClasesTiendaDeLibros.pdb

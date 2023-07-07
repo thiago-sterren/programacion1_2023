@@ -1,0 +1,6 @@
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\ClasesBiblioteca\bin\Debug\ClasesBiblioteca.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\ClasesBiblioteca\bin\Debug\ClasesBiblioteca.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\ClasesBiblioteca\obj\Debug\ClasesBiblioteca.csproj.AssemblyReference.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\ClasesBiblioteca\obj\Debug\ClasesBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\ClasesBiblioteca\obj\Debug\ClasesBiblioteca.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\UltimoRepasoBiblioteca\ClasesBiblioteca\obj\Debug\ClasesBiblioteca.pdb

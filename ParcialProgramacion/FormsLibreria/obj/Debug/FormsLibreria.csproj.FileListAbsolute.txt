@@ -1,0 +1,14 @@
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\FormsLibreria\bin\Debug\FormsLibreria.exe.config
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\FormsLibreria\bin\Debug\FormsLibreria.exe
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\FormsLibreria\bin\Debug\FormsLibreria.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\FormsLibreria\bin\Debug\ClasesTiendaDeLibros.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\FormsLibreria\bin\Debug\ClasesTiendaDeLibros.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\FormsLibreria\obj\Debug\FormsLibreria.csproj.AssemblyReference.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\FormsLibreria\obj\Debug\FormsLibreria.csproj.SuggestedBindingRedirects.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\FormsLibreria\obj\Debug\FormsLibreria.ABMLibros.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\FormsLibreria\obj\Debug\FormsLibreria.Properties.Resources.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\FormsLibreria\obj\Debug\FormsLibreria.csproj.GenerateResource.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\FormsLibreria\obj\Debug\FormsLibreria.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\FormsLibreria\obj\Debug\FormsLibreria.csproj.CopyComplete
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\FormsLibreria\obj\Debug\FormsLibreria.exe
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\ParcialProgramacion\FormsLibreria\obj\Debug\FormsLibreria.pdb

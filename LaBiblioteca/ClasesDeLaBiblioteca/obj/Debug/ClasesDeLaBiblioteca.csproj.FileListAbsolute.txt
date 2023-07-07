@@ -1,0 +1,6 @@
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\LaBiblioteca\ClasesDeLaBiblioteca\bin\Debug\ClasesDeLaBiblioteca.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\LaBiblioteca\ClasesDeLaBiblioteca\bin\Debug\ClasesDeLaBiblioteca.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\LaBiblioteca\ClasesDeLaBiblioteca\obj\Debug\ClasesDeLaBiblioteca.csproj.AssemblyReference.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\LaBiblioteca\ClasesDeLaBiblioteca\obj\Debug\ClasesDeLaBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\LaBiblioteca\ClasesDeLaBiblioteca\obj\Debug\ClasesDeLaBiblioteca.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\LaBiblioteca\ClasesDeLaBiblioteca\obj\Debug\ClasesDeLaBiblioteca.pdb

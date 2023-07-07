@@ -1,0 +1,6 @@
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\BibliotecaTurnos\bin\Debug\BibliotecaTurnos.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\BibliotecaTurnos\bin\Debug\BibliotecaTurnos.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\BibliotecaTurnos\obj\Debug\BibliotecaTurnos.csproj.AssemblyReference.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\BibliotecaTurnos\obj\Debug\BibliotecaTurnos.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\BibliotecaTurnos\obj\Debug\BibliotecaTurnos.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\BibliotecaTurnos\obj\Debug\BibliotecaTurnos.pdb

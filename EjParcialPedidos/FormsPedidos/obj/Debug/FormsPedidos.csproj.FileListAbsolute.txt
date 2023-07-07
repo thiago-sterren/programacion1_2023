@@ -1,0 +1,14 @@
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\FormsPedidos\obj\Debug\FormsPedidos.csproj.AssemblyReference.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\FormsPedidos\obj\Debug\FormsPedidos.csproj.SuggestedBindingRedirects.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\FormsPedidos\obj\Debug\FormsPedidos.Pedidos.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\FormsPedidos\obj\Debug\FormsPedidos.Properties.Resources.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\FormsPedidos\obj\Debug\FormsPedidos.csproj.GenerateResource.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\FormsPedidos\obj\Debug\FormsPedidos.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\FormsPedidos\bin\Debug\FormsPedidos.exe.config
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\FormsPedidos\bin\Debug\FormsPedidos.exe
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\FormsPedidos\bin\Debug\FormsPedidos.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\FormsPedidos\bin\Debug\BibliotecaPedidos.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\FormsPedidos\bin\Debug\BibliotecaPedidos.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\FormsPedidos\obj\Debug\FormsPedidos.csproj.CopyComplete
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\FormsPedidos\obj\Debug\FormsPedidos.exe
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\EjParcialPedidos\FormsPedidos\obj\Debug\FormsPedidos.pdb

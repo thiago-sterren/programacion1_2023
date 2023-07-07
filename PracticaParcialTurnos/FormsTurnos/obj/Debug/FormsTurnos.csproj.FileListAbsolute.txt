@@ -1,0 +1,16 @@
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\FormsTurnos\bin\Debug\FormsTurnos.exe.config
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\FormsTurnos\bin\Debug\FormsTurnos.exe
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\FormsTurnos\bin\Debug\FormsTurnos.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\FormsTurnos\bin\Debug\BibliotecaTurnos.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\FormsTurnos\bin\Debug\BibliotecaTurnos.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\FormsTurnos\obj\Debug\FormsTurnos.csproj.AssemblyReference.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\FormsTurnos\obj\Debug\FormsTurnos.csproj.SuggestedBindingRedirects.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\FormsTurnos\obj\Debug\FormsTurnos.MenuPrincipal.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\FormsTurnos\obj\Debug\FormsTurnos.Properties.Resources.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\FormsTurnos\obj\Debug\FormsTurnos.csproj.GenerateResource.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\FormsTurnos\obj\Debug\FormsTurnos.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\FormsTurnos\obj\Debug\FormsTurnos.csproj.CopyComplete
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\FormsTurnos\obj\Debug\FormsTurnos.exe
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\FormsTurnos\obj\Debug\FormsTurnos.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\FormsTurnos\obj\Debug\FormsTurnos.PestanaTurnoPresencial.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\PracticaParcialTurnos\FormsTurnos\obj\Debug\FormsTurnos.PestanaTurnoVirtual.resources
