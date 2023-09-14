@@ -1,0 +1,16 @@
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\FormsElectronica\bin\Debug\FormsElectronica.exe.config
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\FormsElectronica\bin\Debug\FormsElectronica.exe
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\FormsElectronica\bin\Debug\FormsElectronica.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\FormsElectronica\bin\Debug\Biblioteca_Ejercicio_2.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\FormsElectronica\bin\Debug\Biblioteca_Ejercicio_2.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\FormsElectronica\obj\Debug\FormsElectronica.csproj.AssemblyReference.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\FormsElectronica\obj\Debug\FormsElectronica.csproj.SuggestedBindingRedirects.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\FormsElectronica\obj\Debug\FormsElectronica.MenuPrincipal.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\FormsElectronica\obj\Debug\FormsElectronica.Properties.Resources.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\FormsElectronica\obj\Debug\FormsElectronica.Smartphones.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\FormsElectronica\obj\Debug\FormsElectronica.Televisores.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\FormsElectronica\obj\Debug\FormsElectronica.csproj.GenerateResource.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\FormsElectronica\obj\Debug\FormsElectronica.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\FormsElectronica\obj\Debug\FormsElectronica.csproj.CopyComplete
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\FormsElectronica\obj\Debug\FormsElectronica.exe
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\FormsElectronica\obj\Debug\FormsElectronica.pdb

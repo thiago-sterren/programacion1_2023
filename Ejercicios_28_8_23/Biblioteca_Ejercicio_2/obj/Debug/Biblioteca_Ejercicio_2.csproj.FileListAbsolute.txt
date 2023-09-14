@@ -1,0 +1,6 @@
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Biblioteca_Ejercicio_2\bin\Debug\Biblioteca_Ejercicio_2.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Biblioteca_Ejercicio_2\bin\Debug\Biblioteca_Ejercicio_2.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Biblioteca_Ejercicio_2\obj\Debug\Biblioteca_Ejercicio_2.csproj.AssemblyReference.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Biblioteca_Ejercicio_2\obj\Debug\Biblioteca_Ejercicio_2.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Biblioteca_Ejercicio_2\obj\Debug\Biblioteca_Ejercicio_2.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Biblioteca_Ejercicio_2\obj\Debug\Biblioteca_Ejercicio_2.pdb

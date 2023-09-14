@@ -1,0 +1,16 @@
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Forms_Motos\bin\Debug\Forms_Motos.exe.config
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Forms_Motos\bin\Debug\Forms_Motos.exe
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Forms_Motos\bin\Debug\Forms_Motos.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Forms_Motos\bin\Debug\Biblioteca_Ejercicio_1.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Forms_Motos\bin\Debug\Biblioteca_Ejercicio_1.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Forms_Motos\obj\Debug\Forms_Motos.csproj.AssemblyReference.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Forms_Motos\obj\Debug\Forms_Motos.csproj.SuggestedBindingRedirects.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Forms_Motos\obj\Debug\Forms_Motos.MenuPrincipal.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Forms_Motos\obj\Debug\Forms_Motos.MotosDeportivas.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Forms_Motos\obj\Debug\Forms_Motos.Properties.Resources.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Forms_Motos\obj\Debug\Forms_Motos.csproj.GenerateResource.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Forms_Motos\obj\Debug\Forms_Motos.csproj.CoreCompileInputs.cache
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Forms_Motos\obj\Debug\Forms_Motos.csproj.CopyComplete
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Forms_Motos\obj\Debug\Forms_Motos.exe
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Forms_Motos\obj\Debug\Forms_Motos.pdb
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicios_28_8_23\Forms_Motos\obj\Debug\Forms_Motos.MotosUtilitarias.resources

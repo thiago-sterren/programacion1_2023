@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EjercicioMotos", "EjercicioMotos", "{F5B598FC-8220-4DFF-AE5B-6629CFCD9C1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca_Ejercicio_1", "Biblioteca_Ejercicio_1\Biblioteca_Ejercicio_1.csproj", "{BA67F8BD-E20E-4571-A243-6C955643D102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms_Motos", "Forms_Motos\Forms_Motos.csproj", "{9ABA1B41-70DB-4D4C-A977-8BB6D76CAB37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EjercicioElectronica", "EjercicioElectronica", "{15C614CA-108C-464D-AFAE-192E1E9EB79A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsElectronica", "FormsElectronica\FormsElectronica.csproj", "{768BA7C7-7E56-45FF-9DA0-E35675A6B424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca_Ejercicio_2", "Biblioteca_Ejercicio_2\Biblioteca_Ejercicio_2.csproj", "{33EA81A5-418A-4737-A51F-BB3278392BA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA67F8BD-E20E-4571-A243-6C955643D102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA67F8BD-E20E-4571-A243-6C955643D102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA67F8BD-E20E-4571-A243-6C955643D102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA67F8BD-E20E-4571-A243-6C955643D102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ABA1B41-70DB-4D4C-A977-8BB6D76CAB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ABA1B41-70DB-4D4C-A977-8BB6D76CAB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ABA1B41-70DB-4D4C-A977-8BB6D76CAB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ABA1B41-70DB-4D4C-A977-8BB6D76CAB37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{768BA7C7-7E56-45FF-9DA0-E35675A6B424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768BA7C7-7E56-45FF-9DA0-E35675A6B424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768BA7C7-7E56-45FF-9DA0-E35675A6B424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768BA7C7-7E56-45FF-9DA0-E35675A6B424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33EA81A5-418A-4737-A51F-BB3278392BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33EA81A5-418A-4737-A51F-BB3278392BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33EA81A5-418A-4737-A51F-BB3278392BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33EA81A5-418A-4737-A51F-BB3278392BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA67F8BD-E20E-4571-A243-6C955643D102} = {F5B598FC-8220-4DFF-AE5B-6629CFCD9C1C}
+		{9ABA1B41-70DB-4D4C-A977-8BB6D76CAB37} = {F5B598FC-8220-4DFF-AE5B-6629CFCD9C1C}
+		{768BA7C7-7E56-45FF-9DA0-E35675A6B424} = {15C614CA-108C-464D-AFAE-192E1E9EB79A}
+		{33EA81A5-418A-4737-A51F-BB3278392BA5} = {15C614CA-108C-464D-AFAE-192E1E9EB79A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEA8B218-E16B-4CBB-B15F-4BE0923BB49C}
+	EndGlobalSection
+EndGlobal
