@@ -17,6 +17,7 @@ namespace Back
             Activa, Pausada, Bloqueada
         }
         public Estado estado { get; set; } = Estado.Activa;
+        public double MontoDeuda { get; set; }
         public Cliente clienteTitular { get; set; }
         public CuentaBancaria cuentaBancaria { get; set; }
         public TarjetaCredito(int numeroTarjeta, double limiteCredito, double saldoDisponible, Estado estado, Cliente clienteTitular, CuentaBancaria cuentaBancaria)
