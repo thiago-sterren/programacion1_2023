@@ -15,7 +15,7 @@
         }
         public void PausarTarjetaCredito(int numeroTarjeta)
         {
-            TarjetaCredito? tc = context.Tarjetas.Find(numeroTarjeta);
+            TarjetaCredito? tc = context.Tarjetas.SingleOrDefault(tc => tc.numeroTarjeta == numeroTarjeta);
             if (tc != null)
             {
                 tc.estado = TarjetaCredito.Estado.Pausada;
@@ -29,7 +29,7 @@
         }
         public string RealizarDeposito(int nroCuenta, double Monto)
         {
-            CuentaBancaria? cb = context.Cuentas.Find(nroCuenta);
+            CuentaBancaria? cb = context.Cuentas.SingleOrDefault(cb => cb.numeroCuenta == nroCuenta);
             if (cb != null)
             {
                 cb.saldo += Monto;
@@ -43,7 +43,7 @@
         }
         public string RealizarExtraccion(int nroCuenta, double Monto)
         {
-            CuentaBancaria? cb = context.Cuentas.Find(nroCuenta);
+            CuentaBancaria? cb = context.Cuentas.SingleOrDefault(cb => cb.numeroCuenta == nroCuenta);
             if (cb != null)
             {
                 if (cb.saldo >= Monto)
@@ -64,8 +64,8 @@
         }
         public string RealizarTransferencia(int nroCuentaEmisor, int nroCuentaReceptor, double Monto)
         {
-            CuentaBancaria? cbEmisor = context.Cuentas.Find(nroCuentaEmisor);
-            CuentaBancaria? cbReceptor = context.Cuentas.Find(nroCuentaReceptor);
+            CuentaBancaria? cbEmisor = context.Cuentas.SingleOrDefault(cb => cb.numeroCuenta == nroCuentaEmisor);
+            CuentaBancaria? cbReceptor = context.Cuentas.SingleOrDefault(cb => cb.numeroCuenta == nroCuentaReceptor);
             if (cbEmisor != null && cbReceptor != null)
             {
                 if (cbEmisor.saldo >= Monto)
@@ -87,7 +87,7 @@
         }
         public string PagarTarjetaCredito(int numeroTarjeta, double Monto)
         {
-            TarjetaCredito? tc = context.Tarjetas.Find(numeroTarjeta);
+            TarjetaCredito? tc = context.Tarjetas.SingleOrDefault(tc => tc.numeroTarjeta == numeroTarjeta);
             if (tc != null)
             {
                 if (tc.MontoDeuda == Monto)

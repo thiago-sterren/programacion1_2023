@@ -50,7 +50,6 @@ C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - E
 C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\bin\Debug\net6.0-windows\Back.dll
 C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\bin\Debug\net6.0-windows\Back.pdb
 C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.csproj.AssemblyReference.cache
-C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.Form1.resources
 C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.csproj.GenerateResource.cache
 C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.AssemblyInfoInputs.cache
@@ -62,3 +61,10 @@ C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - E
 C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.pdb
 C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.genruntimeconfig.cache
 C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\ref\Front.dll
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.EmitirTarjeta.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.MenuPrincipal.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.MiTarjeta.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.MovimientosFinancieros.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.NuevaCuenta.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.NuevoCliente.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.Transferencia.resources

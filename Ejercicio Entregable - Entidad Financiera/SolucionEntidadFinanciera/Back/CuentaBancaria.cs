@@ -17,15 +17,13 @@ namespace Back
             Corriente, Ahorro
         }
         public Tipo tipo { get; set; }
-        public TarjetaCredito tarjetaCredito { get; set; }
-        public Cliente clienteTitular { get; set; }
-        public CuentaBancaria(int numeroCuenta, double saldo, Tipo tipo, TarjetaCredito tarjetaCredito, Cliente clienteTitular)
+        public Cliente idClienteTitular { get; set; }
+        public CuentaBancaria(int numeroCuenta, double saldo, Tipo tipo, Cliente idClienteTitular)
         {
             this.numeroCuenta = numeroCuenta;
             this.saldo = saldo;
             this.tipo = tipo;
-            this.tarjetaCredito = tarjetaCredito;
-            this.clienteTitular = clienteTitular;
+            this.idClienteTitular = idClienteTitular;
         }
     }
 }
