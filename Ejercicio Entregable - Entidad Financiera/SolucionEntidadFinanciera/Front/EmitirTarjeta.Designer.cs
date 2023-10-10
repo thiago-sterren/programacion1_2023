@@ -35,7 +35,7 @@
             label3 = new Label();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
-            comboBox1 = new ComboBox();
+            listBox1 = new ListBox();
             SuspendLayout();
             // 
             // button1
@@ -50,12 +50,13 @@
             // 
             // button2
             // 
-            button2.Location = new Point(412, 377);
+            button2.Location = new Point(915, 369);
             button2.Name = "button2";
-            button2.Size = new Size(112, 34);
+            button2.Size = new Size(151, 79);
             button2.TabIndex = 3;
             button2.Text = "Emitir tarjeta";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // label1
             // 
@@ -78,11 +79,11 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(172, 261);
+            label3.Location = new Point(54, 261);
             label3.Name = "label3";
-            label3.Size = new Size(69, 25);
+            label3.Size = new Size(444, 25);
             label3.TabIndex = 6;
-            label3.Text = "Cliente:";
+            label3.Text = "Seleccione al cliente al que quiera asignarle esta tarjeta:";
             // 
             // textBox1
             // 
@@ -98,20 +99,21 @@
             textBox2.Size = new Size(150, 31);
             textBox2.TabIndex = 8;
             // 
-            // comboBox1
+            // listBox1
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(256, 253);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(182, 33);
-            comboBox1.TabIndex = 9;
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 25;
+            listBox1.Location = new Point(61, 309);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(716, 379);
+            listBox1.TabIndex = 9;
             // 
             // EmitirTarjeta
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1048, 575);
-            Controls.Add(comboBox1);
+            ClientSize = new Size(1514, 769);
+            Controls.Add(listBox1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label3);
@@ -121,6 +123,7 @@
             Controls.Add(button1);
             Name = "EmitirTarjeta";
             Text = "EmitirTarjeta";
+            Load += EmitirTarjeta_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -133,6 +136,6 @@
         private Label label3;
         private TextBox textBox1;
         private TextBox textBox2;
-        private ComboBox comboBox1;
+        private ListBox listBox1;
     }
 }

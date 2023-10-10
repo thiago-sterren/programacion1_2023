@@ -13,7 +13,6 @@ namespace Front
 {
     public partial class Transferencia : Form
     {
-        ApplicationDBContext context = new ApplicationDBContext();
         Principal principal = new Principal();
         public Transferencia()
         {
@@ -22,7 +21,7 @@ namespace Front
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(principal.RealizarTransferencia(int.Parse(textBox1.Text), int.Parse(textBox2.Text), double.Parse(textBox3.Text)));
+            MessageBox.Show(principal.RealizarTransferencia(textBox1.Text, textBox2.Text, double.Parse(textBox3.Text)));
         }
 
         private void button2_Click(object sender, EventArgs e)

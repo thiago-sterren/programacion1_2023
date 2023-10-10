@@ -15,6 +15,7 @@ namespace Front
     public partial class NuevaCuenta : Form
     {
         Principal principal = new Principal();
+        ApplicationDBContext context = new ApplicationDBContext();
         public NuevaCuenta()
         {
             InitializeComponent();
@@ -36,47 +37,42 @@ namespace Front
         {
             comboBox1.Items.Add("Corriente");
             comboBox1.Items.Add("Ahorro");
-            foreach (Cliente cliente in principal.DevolverListaClientes())
-            {
-                comboBox2.Items.Add($"{cliente.nombre} {cliente.apellido}. ID: {cliente.id}.");
-            }
+            listBox1.DataSource = null;
+            listBox1.DisplayMember = "info_list_box";
+            listBox1.DataSource = principal.DevolverListaClientes();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             CuentaBancaria cb = new CuentaBancaria();
-            Cliente clienteSeleccionado = (Cliente)comboBox2.SelectedItem;
-            if (textBox1.Text == null)
+            Cliente? clienteSeleccionado = (Cliente)listBox1.SelectedItem;
+            if (textBox1.Text == "" || comboBox1.SelectedItem == null || listBox1.SelectedItem == null)
             {
-                MessageBox.Show("Ingrese el saldo para esta nueva cuenta bancaria");
+                MessageBox.Show("Complete todos los campos, por favor");
             }
             else
             {
+                clienteSeleccionado.cantidadCuentas += 1;
                 cb.saldo = double.Parse(textBox1.Text);
-            }
-            if (comboBox1.SelectedIndex == 0)
-            {
-                cb.tipo = CuentaBancaria.Tipo.Corriente;
-                cb.numeroCuenta = $"0000 {clienteSeleccionado.id} {clienteSeleccionado.dni}";
-            }
-            else if (comboBox1.SelectedIndex == 1)
-            {
-                cb.tipo = CuentaBancaria.Tipo.Ahorro;
-                cb.numeroCuenta = $"1111 {clienteSeleccionado.id} {clienteSeleccionado.dni}";
-            }
-            else
-            {
-                MessageBox.Show("Seleccione un tipo de cuenta bancaria, por favor");
-            }
-            if (comboBox2.SelectedItem == null)
-            {
-                MessageBox.Show("Seleccione el cliente al que quiere asignarle esta nueva cuenta bancaria, por favor");
-            }
-            else
-            {
+                if (comboBox1.SelectedIndex == 0)
+                {
+                    cb.tipo = CuentaBancaria.Tipo.Corriente;
+                    cb.numeroCuenta = $"0000 {clienteSeleccionado.id} {clienteSeleccionado.dni} {clienteSeleccionado.cantidadCuentas}";
+                }
+                else if (comboBox1.SelectedIndex == 1)
+                {
+                    cb.tipo = CuentaBancaria.Tipo.Ahorro;
+                    cb.numeroCuenta = $"1111 {clienteSeleccionado.id} {clienteSeleccionado.dni} {clienteSeleccionado.cantidadCuentas}";
+                }
                 cb.idClienteTitular = clienteSeleccionado;
+                principal.CrearCuentaBancaria(cb);
+                MessageBox.Show("Se ha creado una nueva cuenta");
             }
-            principal.CrearCuentaBancaria(cb);
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

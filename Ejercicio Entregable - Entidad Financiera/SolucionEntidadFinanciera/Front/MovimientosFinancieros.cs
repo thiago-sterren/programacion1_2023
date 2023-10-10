@@ -22,12 +22,12 @@ namespace Front
 
         private void btnDepositar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(principal.RealizarDeposito(int.Parse(textBox1.Text), double.Parse(textBox2.Text)));
+            MessageBox.Show(principal.RealizarDeposito(textBox1.Text, double.Parse(textBox2.Text)));
         }
 
         private void btnExtraer_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(principal.RealizarExtraccion(int.Parse(textBox1.Text), double.Parse(textBox2.Text)));
+            MessageBox.Show(principal.RealizarExtraccion(textBox1.Text, double.Parse(textBox2.Text)));
         }
 
         private void btnTransferencia_Click(object sender, EventArgs e)

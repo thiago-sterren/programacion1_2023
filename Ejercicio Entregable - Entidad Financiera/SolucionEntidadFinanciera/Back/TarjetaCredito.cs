@@ -17,7 +17,7 @@ namespace Back
             Activa, Pausada, Bloqueada
         }
         public Estado estado { get; set; } = Estado.Activa;
-        public double MontoDeuda { get; set; }
+        public double MontoDeuda { get; set; } = 0;
         public Cliente idClienteTitular { get; set; }
     }
 }

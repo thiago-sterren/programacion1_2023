@@ -18,5 +18,11 @@ namespace Back
             this.apellido = apellido;
             this.dni = dni;
         }
+        public string info_list_box
+        {
+            get { return $"ID: {id}, {nombre} {apellido}"; }
+        }
+        public int cantidadCuentas { get; set; }
+        public int cantidadTarjetas { get; set; }
     }
 }
