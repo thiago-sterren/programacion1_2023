@@ -31,16 +31,16 @@
             button1 = new Button();
             button2 = new Button();
             label1 = new Label();
-            label2 = new Label();
             label3 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            txtLimC = new TextBox();
             listBox1 = new ListBox();
+            txtSaldoD = new TextBox();
+            label4 = new Label();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(771, 75);
+            button1.Location = new Point(1185, 34);
             button1.Name = "button1";
             button1.Size = new Size(112, 34);
             button1.TabIndex = 2;
@@ -50,7 +50,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(915, 369);
+            button2.Location = new Point(916, 539);
             button2.Name = "button2";
             button2.Size = new Size(151, 79);
             button2.TabIndex = 3;
@@ -61,63 +61,63 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(118, 108);
+            label1.Location = new Point(108, 140);
             label1.Name = "label1";
             label1.Size = new Size(123, 25);
             label1.TabIndex = 4;
             label1.Text = "Límite crédito:";
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(92, 187);
-            label2.Name = "label2";
-            label2.Size = new Size(149, 25);
-            label2.TabIndex = 5;
-            label2.Text = "Saldo disponible:";
-            // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(54, 261);
+            label3.Location = new Point(52, 193);
             label3.Name = "label3";
             label3.Size = new Size(444, 25);
             label3.TabIndex = 6;
             label3.Text = "Seleccione al cliente al que quiera asignarle esta tarjeta:";
             // 
-            // textBox1
+            // txtLimC
             // 
-            textBox1.Location = new Point(256, 105);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 31);
-            textBox1.TabIndex = 7;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(256, 181);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(150, 31);
-            textBox2.TabIndex = 8;
+            txtLimC.Location = new Point(246, 137);
+            txtLimC.Name = "txtLimC";
+            txtLimC.Size = new Size(150, 31);
+            txtLimC.TabIndex = 7;
             // 
             // listBox1
             // 
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 25;
-            listBox1.Location = new Point(61, 309);
+            listBox1.Location = new Point(59, 241);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(716, 379);
+            listBox1.Size = new Size(716, 304);
             listBox1.TabIndex = 9;
+            // 
+            // txtSaldoD
+            // 
+            txtSaldoD.Location = new Point(246, 85);
+            txtSaldoD.Name = "txtSaldoD";
+            txtSaldoD.Size = new Size(150, 31);
+            txtSaldoD.TabIndex = 13;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(82, 91);
+            label4.Name = "label4";
+            label4.Size = new Size(149, 25);
+            label4.TabIndex = 12;
+            label4.Text = "Saldo disponible:";
             // 
             // EmitirTarjeta
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1514, 769);
+            ClientSize = new Size(1514, 1050);
+            Controls.Add(txtSaldoD);
+            Controls.Add(label4);
             Controls.Add(listBox1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtLimC);
             Controls.Add(label3);
-            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -132,10 +132,10 @@
         private Button button1;
         private Button button2;
         private Label label1;
-        private Label label2;
         private Label label3;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtLimC;
         private ListBox listBox1;
+        private TextBox txtSaldoD;
+        private Label label4;
     }
 }

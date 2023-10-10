@@ -40,8 +40,8 @@ namespace Front
 
         private void btnMiTarjeta_Click(object sender, EventArgs e)
         {
-            MiTarjeta miTarjeta = new MiTarjeta();
-            miTarjeta.Show();
+            ControlarMiTarjeta ControlarMiTarjeta = new ControlarMiTarjeta();
+            ControlarMiTarjeta.Show();
             this.Hide();
         }
 

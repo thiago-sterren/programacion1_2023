@@ -7,6 +7,10 @@
         {
             return context.Clientes.ToList();
         }
+        public List<CuentaBancaria> DevolverListaCuentas()
+        {
+            return context.Cuentas.ToList();
+        }
         public void AgregarCliente(Cliente cliente)
         {
             context.Clientes.Add(cliente);
@@ -23,6 +27,24 @@
             if (tc != null)
             {
                 tc.estado = TarjetaCredito.Estado.Pausada;
+                context.SaveChanges();
+            }
+        }
+        public void BloquearTarjetaCredito(string numeroTarjeta)
+        {
+            TarjetaCredito? tc = context.Tarjetas.SingleOrDefault(tc => tc.numeroTarjeta == numeroTarjeta);
+            if (tc != null)
+            {
+                tc.estado = TarjetaCredito.Estado.Bloqueada;
+                context.SaveChanges();
+            }
+        }
+        public void ReactivarTarjetaCredito(string numeroTarjeta)
+        {
+            TarjetaCredito? tc = context.Tarjetas.SingleOrDefault(tc => tc.numeroTarjeta == numeroTarjeta);
+            if (tc != null)
+            {
+                tc.estado = TarjetaCredito.Estado.Activa;
                 context.SaveChanges();
             }
         }

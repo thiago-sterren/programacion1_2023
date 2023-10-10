@@ -63,8 +63,8 @@ C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - E
 C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\ref\Front.dll
 C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.EmitirTarjeta.resources
 C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.MenuPrincipal.resources
-C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.MiTarjeta.resources
 C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.MovimientosFinancieros.resources
 C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.NuevaCuenta.resources
 C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.NuevoCliente.resources
 C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.Transferencia.resources
+C:\Users\thiag\Desktop\Thiago\GitHub\programacion1_2023\Ejercicio Entregable - Entidad Financiera\SolucionEntidadFinanciera\Front\obj\Debug\net6.0-windows\Front.ControlarMiTarjeta.resources

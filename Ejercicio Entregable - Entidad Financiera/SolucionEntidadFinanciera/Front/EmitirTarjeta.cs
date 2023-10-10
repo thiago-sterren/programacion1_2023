@@ -30,19 +30,19 @@ namespace Front
         {
             TarjetaCredito tc = new TarjetaCredito();
             Cliente? clienteSeleccionado = (Cliente)listBox1.SelectedItem;
-            if (textBox1.Text == "" || textBox2.Text == "" || listBox1.SelectedItem == null)
+            if (txtLimC.Text == "" || listBox1.SelectedItem == null || txtSaldoD.Text == null)
             {
                 MessageBox.Show("Por favor, complete todos los campos");
             }
             else
             {
                 clienteSeleccionado.cantidadTarjetas += 1;
-                tc.limiteCredito = double.Parse(textBox1.Text);
-                tc.saldoDisponible = double.Parse(textBox2.Text);
+                tc.limiteCredito = double.Parse(txtLimC.Text);
+                tc.saldoDisponible = double.Parse(txtSaldoD.Text);
                 tc.idClienteTitular = clienteSeleccionado;
-                tc.numeroTarjeta = $"{tc.id} {clienteSeleccionado.id} {clienteSeleccionado.dni} {clienteSeleccionado.cantidadTarjetas}";
+                tc.numeroTarjeta = $"{clienteSeleccionado.id} {clienteSeleccionado.dni} {clienteSeleccionado.cantidadTarjetas}";
                 principal.EmitirTarjetaCredito(tc);
-                MessageBox.Show($"Tarjeta emitida con éxito. Podrá retirarla en su sucursal más cercana a partir del 5to día hábil de emisión con el siguiente número de tarjeta: {tc.id} {clienteSeleccionado.id} {clienteSeleccionado.dni} {clienteSeleccionado.cantidadTarjetas}");
+                MessageBox.Show($"Tarjeta emitida con éxito. Podrá retirarla en su sucursal más cercana a partir del 5to día hábil de emisión con el siguiente número de tarjeta: {clienteSeleccionado.id} {clienteSeleccionado.dni} {clienteSeleccionado.cantidadTarjetas}");
             }
         }
 

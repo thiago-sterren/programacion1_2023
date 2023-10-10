@@ -11,18 +11,18 @@ using System.Windows.Forms;
 
 namespace Front
 {
-    public partial class MiTarjeta : Form
+    public partial class ControlarMiTarjeta : Form
     {
-        ApplicationDBContext context = new ApplicationDBContext();
         Principal principal = new Principal();
-        public MiTarjeta()
+        ApplicationDBContext context = new ApplicationDBContext();
+        public ControlarMiTarjeta()
         {
             InitializeComponent();
         }
 
-        private void btnDeuda_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            TarjetaCredito? tc = context.Tarjetas.Find(int.Parse(textBox1.Text));
+            TarjetaCredito? tc = context.Tarjetas.FirstOrDefault(tc => tc.numeroTarjeta == textBox1.Text);
             if (tc != null)
             {
                 MessageBox.Show($"Su deuda es de ${tc.MontoDeuda}");
@@ -33,17 +33,27 @@ namespace Front
             }
         }
 
-        private void btnPagar_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
             MessageBox.Show(principal.PagarTarjetaCredito(textBox1.Text, double.Parse(textBox2.Text)));
         }
 
-        private void btnPausar_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
+        {
+            principal.ReactivarTarjetaCredito(textBox1.Text);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
         {
             principal.PausarTarjetaCredito(textBox1.Text);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
+        {
+            principal.BloquearTarjetaCredito(textBox1.Text);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
         {
             MenuPrincipal menuPrincipal = new MenuPrincipal();
             menuPrincipal.Show();

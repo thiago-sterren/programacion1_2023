@@ -18,5 +18,9 @@ namespace Back
         }
         public Tipo tipo { get; set; }
         public Cliente idClienteTitular { get; set; }
+        public string info_list_box
+        {
+            get { return $"Número de cuenta: {numeroCuenta}, Tipo: {tipo}, Titular: {idClienteTitular.nombre} {idClienteTitular.apellido}"; }
+        }
     }
 }
