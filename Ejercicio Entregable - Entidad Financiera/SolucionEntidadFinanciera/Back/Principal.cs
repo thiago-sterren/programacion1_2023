@@ -3,6 +3,10 @@
     public class Principal
     {
         ApplicationDBContext context = new ApplicationDBContext();
+        public List<Cliente> DevolverListaClientes()
+        {
+            return context.Clientes.ToList();
+        }
         public void AgregarCliente(Cliente cliente)
         {
             context.Clientes.Add(cliente);
@@ -13,7 +17,7 @@
             context.Tarjetas.Add(tc);
             context.SaveChanges();
         }
-        public void PausarTarjetaCredito(int numeroTarjeta)
+        public void PausarTarjetaCredito(string numeroTarjeta)
         {
             TarjetaCredito? tc = context.Tarjetas.SingleOrDefault(tc => tc.numeroTarjeta == numeroTarjeta);
             if (tc != null)
@@ -27,7 +31,7 @@
             context.Cuentas.Add(cb);
             context.SaveChanges();
         }
-        public string RealizarDeposito(int nroCuenta, double Monto)
+        public string RealizarDeposito(string nroCuenta, double Monto)
         {
             CuentaBancaria? cb = context.Cuentas.SingleOrDefault(cb => cb.numeroCuenta == nroCuenta);
             if (cb != null)
@@ -41,7 +45,7 @@
                 return "No existe una cuenta bancaria con ese número de cuenta, intente nuevamente";
             }
         }
-        public string RealizarExtraccion(int nroCuenta, double Monto)
+        public string RealizarExtraccion(string nroCuenta, double Monto)
         {
             CuentaBancaria? cb = context.Cuentas.SingleOrDefault(cb => cb.numeroCuenta == nroCuenta);
             if (cb != null)
@@ -62,7 +66,7 @@
                 return "No existe una cuenta bancaria con ese número de cuenta, intente nuevamente";
             }
         }
-        public string RealizarTransferencia(int nroCuentaEmisor, int nroCuentaReceptor, double Monto)
+        public string RealizarTransferencia(string nroCuentaEmisor, string nroCuentaReceptor, double Monto)
         {
             CuentaBancaria? cbEmisor = context.Cuentas.SingleOrDefault(cb => cb.numeroCuenta == nroCuentaEmisor);
             CuentaBancaria? cbReceptor = context.Cuentas.SingleOrDefault(cb => cb.numeroCuenta == nroCuentaReceptor);
@@ -85,7 +89,7 @@
                 return "Alguno o ambos números de cuenta ingresados no corresponden a cuentas bancarias existentes, intente nuevamente";
             }
         }
-        public string PagarTarjetaCredito(int numeroTarjeta, double Monto)
+        public string PagarTarjetaCredito(string numeroTarjeta, double Monto)
         {
             TarjetaCredito? tc = context.Tarjetas.SingleOrDefault(tc => tc.numeroTarjeta == numeroTarjeta);
             if (tc != null)

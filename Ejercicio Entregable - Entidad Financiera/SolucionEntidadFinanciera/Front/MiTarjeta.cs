@@ -35,7 +35,7 @@ namespace Front
 
         private void btnPagar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(principal.PagarTarjetaCredito(int.Parse(textBox1.Text), double.Parse(textBox2.Text)));
+            MessageBox.Show(principal.PagarTarjetaCredito(textBox1.Text), double.Parse(textBox2.Text));
         }
 
         private void btnPausar_Click(object sender, EventArgs e)

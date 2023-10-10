@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Front
 {
@@ -29,13 +30,44 @@ namespace Front
 
         private void btnCrear_Click(object sender, EventArgs e)
         {
-            Cliente cliente = new Cliente(textBox1.Text, textBox2.Text, int.Parse(textBox3.Text));
-            principal.AgregarCliente(cliente);
             int dniIngresado = int.Parse(textBox3.Text);
-            if ()
+            Cliente? clienteBuscado = context.Clientes.SingleOrDefault(c => c.dni == dniIngresado);
+            if (textBox1.Text == null || textBox2.Text == null || textBox3.Text == null || comboBox1.SelectedItem == null || textBox4.Text == null)
             {
-
+                MessageBox.Show("Complete todos los campos, por favor");
             }
+            else
+            {
+                if (clienteBuscado == null)
+                {
+                    Cliente clienteNuevo = new Cliente(textBox1.Text, textBox2.Text, int.Parse(textBox3.Text));
+                    principal.AgregarCliente(clienteNuevo);
+                    CuentaBancaria cb = new CuentaBancaria();
+                    cb.saldo = double.Parse(textBox4.Text);
+                    if (comboBox1.SelectedIndex == 0)
+                    {
+                        cb.tipo = CuentaBancaria.Tipo.Corriente;
+                        cb.numeroCuenta = $"0000 {clienteNuevo.id} {clienteNuevo.dni}";
+                    }
+                    else
+                    {
+                        cb.tipo = CuentaBancaria.Tipo.Ahorro;
+                        cb.numeroCuenta = $"1111 {clienteNuevo.id} {clienteNuevo.dni}";
+                    }
+                    cb.idClienteTitular = clienteNuevo;
+                }
+                else
+                {
+                    MessageBox.Show("Ya existe un cliente con ese DNI, por favor, ingrese otro");
+                }
+            }
+        }
+
+        private void NuevoCliente_Load(object sender, EventArgs e)
+        {
+            comboBox1.Items.Add("Corriente");
+            comboBox1.Items.Add("Ahorro");
+            co
         }
     }
 }
