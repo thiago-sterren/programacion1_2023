@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Back.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20231010022619_mig11112")]
-    partial class mig11112
+    [Migration("20231012201711_mg1122")]
+    partial class mg1122
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,6 +35,12 @@ namespace Back.Migrations
                     b.Property<string>("apellido")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("cantidadCuentas")
+                        .HasColumnType("int");
+
+                    b.Property<int>("cantidadTarjetas")
+                        .HasColumnType("int");
 
                     b.Property<int>("dni")
                         .HasColumnType("int");
